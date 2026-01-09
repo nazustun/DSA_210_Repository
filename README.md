@@ -8,6 +8,33 @@ This project aims to explore **the impact of movie budgets on IMDB ratings and b
 By understanding these relationships, we can gain insights into whether money truly buys success in cinema and what other factors might contribute to a film’s outcome.
 
 ---
+## Research Questions & Hypotheses
+
+### Research Questions
+1) Do higher budgets lead to higher box office revenue?
+2) Do higher budgets lead to higher IMDb ratings?
+3) Do these relationships differ by genre or release year (decade)?
+4) Can we predict a film’s success using budget, ratings, and metadata?
+
+### Hypotheses (Statistical Testing Format)
+
+**H1 — Budget ↔ Revenue**
+- H0: Budget is not significantly related to revenue.
+- H1: Budget is significantly related to revenue (expected positive).
+
+**H2 — Budget ↔ IMDb Rating**
+- H0: Budget is not significantly related to IMDb rating.
+- H1: Budget is significantly related to IMDb rating.
+
+**H3 — Genre Differences**
+- H0: Mean ROI (or revenue) is equal across genres.
+- H1: At least one genre differs.
+
+**H4 — Release Period Differences**
+- H0: Mean ROI (or revenue) is equal across decades.
+- H1: At least one decade differs.
+
+---
 
 ##  Objectives
 - Investigate the correlation between **movie budgets** and **IMDB ratings**.  
